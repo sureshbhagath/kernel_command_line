@@ -1,6 +1,4 @@
-#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
 # Kernel command line parameter to your own driver
-# kernel_command_line
 This Program is about getting the kernel command line parameter from command line txt file to my own driver and printiing it out in kernel log (dmesg)
 
 I have done it using Raspberry PI with my Two days of effort researching it and refering some documents 
