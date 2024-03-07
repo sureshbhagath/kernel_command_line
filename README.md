@@ -18,16 +18,28 @@ Do modprobe over insmod
 # I.E
 > modinfo my_file.ko
 modinfo temp1 
+
+
 filename:       /lib/modules/6.1.0-rpi7-rpi-v8/temp1.ko
+
 license:        Dual MIT/GPL
+
 description:    Kernel driver for the DHT2x temperature & humidity sensor
+
 author:         Suresh Bhagath 
+
 srcversion:     8CFFEA679FCEE38225EAE32
+
 alias:          of:N*T*CSURESH,dht2xC*
+
 alias:          of:N*T*CSURESH,dht2x
+
 depends:        
+
 name:           temp1
+
 vermagic:       6.1.0-rpi7-rpi-v8 SMP preempt mod_unload modversions aarch64
+
 parm:           slave_address:Temparature address parameter (int)
 
 
